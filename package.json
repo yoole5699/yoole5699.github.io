@@ -1,18 +1,23 @@
 {
   "name": "yoole5699.github.io",
   "homepage": "https://yoole5699.github.io",
-  "repo": "https://github.com/yoole5699/yoole5699.github.io",
+  "repository": "https://github.com/yoole5699/yoole5699.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "styled-components": "^2.2.4",
+    "styled-theming": "^2.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
